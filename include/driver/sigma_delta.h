@@ -78,6 +78,8 @@ esp_err_t sigma_delta_deinit(void);
   * @brief  Set sigma-delta signal generator output
   * on selected GPIO
   *
+  * @note GPIO should already been configured as output
+  *
   * @param[in] gpio_num selected gpio pin
   * @return
   *     - ESP_OK Success
