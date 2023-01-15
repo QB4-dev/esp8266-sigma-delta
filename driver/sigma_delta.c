@@ -86,7 +86,7 @@ esp_err_t sigma_delta_set_output(gpio_num_t gpio_num)
 		.pin_bit_mask = (1 << gpio_num),
 		.mode = GPIO_MODE_OUTPUT,
 		.pull_up_en = 0,
-		.pull_down_en = GPIO_PULLDOWN_ENABLE,
+		.pull_down_en = 0,
 		.intr_type = GPIO_INTR_DISABLE
 	};
 	ESP_ERROR_CHECK(gpio_config(&io_config));
