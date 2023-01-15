@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2022 <qb4.dev@gmail.com>
+ * Copyright (c) 2023 <qb4.dev@gmail.com>
  *
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
